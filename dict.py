@@ -1,0 +1,22 @@
+dict1=dict([('1','N D'),('2','RAM')])
+print(dict1)
+dict2={}
+dict2['a']="amar"
+dict2['b']="akbar"
+print(dict2)
+dict3={"x1":"IS","x2":"GMU"}
+print(dict3)
+print(dict3["x1"])
+dict3['address']="BBSR"
+print(dict3)
+dict3['address']="SAMBALPUR"
+print(dict3)
+dict3.pop("x2")
+print(dict3)
+dict5={"x":1,"y":2,"z":0}
+mx=max(dict5.values())
+print(mx)
+mi=min(dict5.values())
+print(mi)
+a=len(dict5.values())
+print(a)
